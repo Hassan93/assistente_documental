@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<!-- Template Name: Clip-One - Responsive Admin Template build with Twitter Bootstrap 3.x Version: 1.3 Author: ClipTheme -->
+<!--[if IE 8]><html class="ie8 no-js" lang="en"><![endif]-->
+<!--[if IE 9]><html class="ie9 no-js" lang="en"><![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js">
+	<!--<![endif]-->
+	<!-- start: HEAD -->
+	<head>
+		<title>Clip-One - Responsive Admin Template</title>
+		<!-- start: META -->
+		<meta charset="utf-8" />
+		<!--[if IE]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta content="" name="description" />
+		<meta content="" name="author" />
+		<!-- end: META -->
+		<!-- start: MAIN CSS -->
+		<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/fonts/style.css">
+		<link rel="stylesheet" href="assets/css/main.css">
+		<link rel="stylesheet" href="assets/css/main-responsive.css">
+		<link rel="stylesheet" href="assets/plugins/iCheck/skins/all.css">
+		<link rel="stylesheet" href="assets/plugins/bootstrap-colorpalette/css/bootstrap-colorpalette.css">
+		<link rel="stylesheet" href="assets/plugins/perfect-scrollbar/src/perfect-scrollbar.css">
+		<link rel="stylesheet" href="assets/css/theme_light.css" type="text/css" id="skin_color">
+		<link rel="stylesheet" href="assets/css/print.css" type="text/css" media="print"/>
+		<!--[if IE 7]>
+		<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome-ie7.min.css">
+		<![endif]-->
+		<!-- end: MAIN CSS -->
+		<!-- start: CSS REQUIRED FOR THIS PAGE ONLY -->
+		<link rel="stylesheet" href="assets/plugins/select2/select2.css">
+		<link rel="stylesheet" href="assets/plugins/datepicker/css/datepicker.css">
+		<link rel="stylesheet" href="assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css">
+		<link rel="stylesheet" href="assets/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css">
+		<link rel="stylesheet" href="assets/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.css">
+		<link rel="stylesheet" href="assets/plugins/jQuery-Tags-Input/jquery.tagsinput.css">
+		<link rel="stylesheet" href="assets/plugins/bootstrap-fileupload/bootstrap-fileupload.min.css">
+		<link rel="stylesheet" href="assets/plugins/summernote/build/summernote.css">
+		<!-- end: CSS REQUIRED FOR THIS PAGE ONLY -->
+		<link rel="shortcut icon" href="favicon.ico" />
+	</head>
+	<!-- end: HEAD -->
+	<!-- start: BODY -->
+	<body>
+		<!-- start: MAIN CONTAINER -->
+		<div class="main-container">
+
+			<!-- start: PAGE -->
+			<div class="main-content">
+				<!-- start: PANEL CONFIGURATION MODAL FORM -->
+				<!-- /.modal -->
+				<!-- end: SPANEL CONFIGURATION MODAL FORM -->
+				<div class="container">
+
+					<!-- start: PAGE CONTENT -->
+
+					<div class="row">
+						<div class="col-sm-6">
+							<!-- start: COLOR PICKER PANEL -->
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<i class="fa fa-external-link-square"></i>
+									Color Picker
+									<div class="panel-tools">
+										<a class="btn btn-xs btn-link panel-collapse collapses" href="#">
+										</a>
+										<a class="btn btn-xs btn-link panel-config" href="#panel-config" data-toggle="modal">
+											<i class="fa fa-wrench"></i>
+										</a>
+										<a class="btn btn-xs btn-link panel-refresh" href="#">
+											<i class="fa fa-refresh"></i>
+										</a>
+										<a class="btn btn-xs btn-link panel-expand" href="#">
+											<i class="fa fa-resize-full"></i>
+										</a>
+										<a class="btn btn-xs btn-link panel-close" href="#">
+											<i class="fa fa-times"></i>
+										</a>
+									</div>
+								</div>
+								<div class="panel-body">
+									<div class="form-group">
+										<div class="col-sm-12">
+											<label>
+												Image Upload
+											</label>
+											<div class="fileupload fileupload-new" data-provides="fileupload">
+												<div class="fileupload-new thumbnail" style="width: 200px; height: 150px;"><img src="http://www.placehold.it/200x150/EFEFEF/AAAAAA?text=no+image" alt=""/>
+												</div>
+												<div class="fileupload-preview fileupload-exists thumbnail" style="max-width: 200px; max-height: 150px; line-height: 20px;"></div>
+												<div>
+													<span class="btn btn-light-grey btn-file"><span class="fileupload-new"><i class="fa fa-picture-o"></i> Select image</span><span class="fileupload-exists"><i class="fa fa-picture-o"></i> Change</span>
+														<input type="file">
+													</span>
+													<a href="#" class="btn fileupload-exists btn-light-grey" data-dismiss="fileupload">
+														<i class="fa fa-times"></i> Remove
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="form-group">
+										<label>
+											Default
+										</label>
+										<div>
+											<input type="text" value="#8fff00" class="form-control color-picker">
+										</div>
+									</div>
+									<div class="form-group">
+										<label>
+											RGBA
+										</label>
+										<div>
+											<input type="text" value="rgb(0,194,255,0.78)" class="form-control color-picker-rgba">
+										</div>
+									</div>
+									<div class="form-group">
+										<label>
+											As Component
+										</label>
+										<div class="input-group colorpicker-component" data-color="rgb(81, 145, 185)" data-color-format="rgb">
+											<input type="text" value="" readonly class="form-control">
+											<span class="input-group-addon"><i style="background-color: rgb(81, 145, 185)"></i></span>
+										</div>
+									</div>
+									<div class="form-group">
+										<label>
+											Color Palette
+										</label>
+										<div class="input-group">
+											<input type="text" value="" class="form-control" id="selected-color1">
+											<span class="btn input-group-addon" data-toggle="dropdown">color</span>
+											<ul class="dropdown-menu pull-right center">
+												<li>
+													<div class="color-palette"></div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- end: COLOR PICKER PANEL -->
+						</div>
+					</div>
+
+					<!-- end: PAGE CONTENT-->
+				</div>
+			</div>
+			<!-- end: PAGE -->
+		</div>
+		<!-- end: MAIN CONTAINER -->
+		<!-- start: FOOTER -->
+		<div class="footer clearfix">
+			<div class="footer-inner">
+				2014 &copy; clip-one by cliptheme.
+			</div>
+			<div class="footer-items">
+				<span class="go-top"><i class="clip-chevron-up"></i></span>
+			</div>
+		</div>
+		<!-- end: FOOTER -->
+		<!-- start: MAIN JAVASCRIPTS -->
+		<!--[if lt IE 9]>
+		<script src="assets/plugins/respond.min.js"></script>
+		<script src="assets/plugins/excanvas.min.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<![endif]-->
+		<!--[if gte IE 9]><!-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<!--<![endif]-->
+		<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+		<script src="assets/plugins/jquery-ui/jquery-ui-1.10.2.custom.min.js"></script>
+		<script src="assets/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js"></script>
+		<script src="assets/plugins/blockUI/jquery.blockUI.js"></script>
+		<script src="assets/plugins/iCheck/jquery.icheck.min.js"></script>
+		<script src="assets/plugins/perfect-scrollbar/src/jquery.mousewheel.js"></script>
+		<script src="assets/plugins/perfect-scrollbar/src/perfect-scrollbar.js"></script>
+		<script src="assets/plugins/less/less-1.5.0.min.js"></script>
+		<script src="assets/plugins/jquery-cookie/jquery.cookie.js"></script>
+		<script src="assets/plugins/bootstrap-colorpalette/js/bootstrap-colorpalette.js"></script>
+		<script src="assets/js/main.js"></script>
+		<!-- end: MAIN JAVASCRIPTS -->
+		<!-- start: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+		<script src="assets/plugins/jquery-inputlimiter/jquery.inputlimiter.1.3.1.min.js"></script>
+		<script src="assets/plugins/autosize/jquery.autosize.min.js"></script>
+		<script src="assets/plugins/select2/select2.min.js"></script>
+		<script src="assets/plugins/jquery.maskedinput/src/jquery.maskedinput.js"></script>
+		<script src="assets/plugins/jquery-maskmoney/jquery.maskMoney.js"></script>
+		<script src="assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+		<script src="assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js"></script>
+		<script src="assets/plugins/bootstrap-daterangepicker/moment.min.js"></script>
+		<script src="assets/plugins/bootstrap-daterangepicker/daterangepicker.js"></script>
+		<script src="assets/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>
+		<script src="assets/plugins/bootstrap-colorpicker/js/commits.js"></script>
+		<script src="assets/plugins/jQuery-Tags-Input/jquery.tagsinput.js"></script>
+		<script src="assets/plugins/bootstrap-fileupload/bootstrap-fileupload.min.js"></script>
+		<script src="assets/plugins/summernote/build/summernote.min.js"></script>
+		<script src="assets/plugins/ckeditor/ckeditor.js"></script>
+		<script src="assets/plugins/ckeditor/adapters/jquery.js"></script>
+		<script src="assets/js/form-elements.js"></script>
+		<!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+		<script>
+			jQuery(document).ready(function() {
+				Main.init();
+				FormElements.init();
+				$('.mainmenu').trigger('click');
+			});
+		</script>
+	</body>
+	<!-- end: BODY -->
+</html>
